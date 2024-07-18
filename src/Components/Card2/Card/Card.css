@@ -1,0 +1,44 @@
+.Card-container{
+    width: 190px;
+    /* height: 200px; */
+}
+.Card-container:hover{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 1.85px 3.15px 0px #00000001;
+    padding: 5px;
+    width: 220px;
+    box-shadow: 0px 8.15px 6.52px 0px #00000002;
+    box-shadow: 0px 20px 13px 0px #00000003;
+    box-shadow: 0px 64.81px 46.85px 0px #00000004;
+    box-shadow: 0px 100px 80px 0px #00000005;
+    border-radius: 30px;
+}
+.img-container{
+    text-align: center;
+    margin-top: 25px;
+}
+.img-container img{
+    background-color: #FFF1DA;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width:60px;
+    height:60px;
+}
+.img-container h6{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1E1D4C;    
+    margin-bottom: 13px;
+    width:190px;
+}
+.img-container p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E6282;  
+    /* text-align: center; */
+}

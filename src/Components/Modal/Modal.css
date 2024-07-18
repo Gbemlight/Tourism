@@ -1,0 +1,124 @@
+.modal-overlay{
+    background-color: #000000;
+    opacity: 60%;
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.remove{
+    margin-left: 90%;
+    margin-top: 20px;
+}
+.mainmodal{
+    background: #fff;
+    width: 550px;
+    height: 650px;
+    margin: auto;
+    border-radius: 13px;
+    z-index: 1000;
+    position: absolute;
+    transform: translate(70%, 40%);
+}
+.modaltext h5{
+    font-family: Volkhov;
+    font-size: 28.92px;
+    font-weight: 700;
+    line-height: 41.09px;
+    text-align: center;   
+    color: #181E4B; 
+    margin-bottom: 28px;
+}
+.check input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 17px;
+    position: relative;
+    margin-left: 10%;
+    border: 1px solid #000000
+}
+.checkicon{
+    position: absolute;
+    left: 83%;
+    /* top: 10%; */
+    margin-top: 15px;
+    color: #000000;
+}
+.flexcheck{
+    display: flex;
+    gap: 20px;
+    margin-left: 10%;
+    /* margin-bottom: 20px; */
+}
+label{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+    color: #00000096;
+}
+.flexchecktext{
+    margin-bottom: 20px;
+}
+.mainmodal p{
+    font-family: Poppins;
+    font-size: 12.72px;
+    font-weight: 600;
+    line-height: 19.09px;
+    color: #DF6951;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    /* text-align: center;     */
+}
+.clock{
+    display: flex;
+    margin-bottom: 19px;
+    margin-left: 10%;
+    /* width: 300px; */
+    /* padding: 15px; */
+     /* border-radius: 6px;
+    margin-bottom: 17px;
+    position: relative;
+    border: 1px solid #000000 */
+}
+.clock1{
+    position: relative;
+    width: 68%;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+.clock2{
+    position: relative;
+    width: 100px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+.checkit{
+    position: absolute;
+    left: 57%;
+    top:48%;
+}
+.mainmodal button{
+    font-family: Poppins;
+    font-size: 16.72px;
+    font-weight: 600;
+    line-height: 25.07px;
+    background-color: #DF6951;
+    color: #ffff;    
+    box-shadow: 0px 20px 35px 0px #DF695126;
+    border: none;
+    padding: 15px;
+    /* margin: auto; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+}

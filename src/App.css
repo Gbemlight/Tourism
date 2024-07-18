@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: circular Std;
+    src: url(./assets/circular-std-medium-500.ttf);
+}
