@@ -80,7 +80,7 @@ const Footer = () => {
       <button onClick={handleSubscribe}>Subscribe</button>
       {showPopup && (
         <div className="popup">
-          <p>Thank you for subscribing!</p>
+          <p style={{color: "green"}}>Thank you for subscribing!</p>
         </div>
       )}
     </div>

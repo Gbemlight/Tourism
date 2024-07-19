@@ -32,6 +32,8 @@ import Slider from "../../Components/Slider/Slider";
 import Footer from "../../Components/Footer/Footer";
 import Modal from "../../Components/Modal/Modal";
 import  { useState } from 'react';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 // import AboutUs from '../../Pages/AboutUs/AboutUs'
 // import BackgroundSlider from '../../BackgroundSlider'
 
@@ -68,6 +70,21 @@ const Homepage = () => {
       text: "Protect your health with our medical insurance plans",
     },
   ];
+  
+  const options = {
+    type: "loop",
+    // gap: "8px",
+    autoplay: true,
+    pauseOnHover: true,
+    resetProgess: false,
+    // arrows: true,
+    dots: false,
+    fixedWidth: "538px",
+    pagination: 3,
+    speed: 1000,
+
+    
+  };
   return (
     <div className="container">
       {showModal && <Modal hideModal={hideModal}/>}
@@ -75,8 +92,11 @@ const Homepage = () => {
       <div className="hero">
         <div className="header">
           {/* <img src={Logo} alt="logo" /> */}
-          <Navbar />
+          <Navbar/>
         </div>
+        <Splide className="slide-container" options={{}}>
+          <SplideSlide>
+            
         <div className="herocontents">
           <img src={Vector1} alt="image" />
           <h2>
@@ -117,6 +137,94 @@ const Homepage = () => {
             <p>2,500 people booked Tommorowland Event in last 24 hours</p>
           </div>
         </div>
+          </SplideSlide>
+          <SplideSlide>
+            
+        <div className="herocontents">
+          <img src={Vector1} alt="image" />
+          <h2>
+            No matter where <br />
+            you’re going to, we’ll <br /> take you there
+          </h2>
+          <div className="anchors">
+            <select>
+              <option>Where To </option>   ~
+              <option>Abuja</option>
+              <option>SouthAfrica</option>
+              <option>Canada</option>
+              <option>United Kingdom</option>
+            </select>
+            <select>
+              <option>
+                Travel Type
+                <MdKeyboardArrowDown />
+              </option>
+              <option>Classic</option>
+              <option>Business Class</option>
+              <option>Free Lancers</option>
+              <option>Special treatment</option>
+            </select>
+            <select>
+              <option>
+                Duration <MdKeyboardArrowDown />
+              </option>
+              <option>3 Years</option>
+              <option>2.5 Years</option>
+              <option>1 Year</option>
+              <option>6 Months</option>
+            </select>
+            <button>Submit</button>
+          </div>
+          <div className="clientsection">
+            <img src={Group81} alt="image" />
+            <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+          </div>
+        </div>
+          </SplideSlide>
+          <SplideSlide>
+            
+        <div className="herocontents">
+          <img src={Vector1} alt="image" />
+          <h2>
+            No matter where <br />
+            you’re going to, we’ll <br /> take you there
+          </h2>
+          <div className="anchors">
+            <select>
+              <option>Where To </option>   ~
+              <option>Abuja</option>
+              <option>SouthAfrica</option>
+              <option>Canada</option>
+              <option>United Kingdom</option>
+            </select>
+            <select>
+              <option>
+                Travel Type
+                <MdKeyboardArrowDown />
+              </option>
+              <option>Classic</option>
+              <option>Business Class</option>
+              <option>Free Lancers</option>
+              <option>Special treatment</option>
+            </select>
+            <select>
+              <option>
+                Duration <MdKeyboardArrowDown />
+              </option>
+              <option>3 Years</option>
+              <option>2.5 Years</option>
+              <option>1 Year</option>
+              <option>6 Months</option>
+            </select>
+            <button>Submit</button>
+          </div>
+          <div className="clientsection">
+            <img src={Group81} alt="image" />
+            <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+          </div>
+        </div>
+          </SplideSlide>
+        </Splide>
       </div>
       <div className="partners">
         <img src={image11} alt="image" />
@@ -157,7 +265,7 @@ const Homepage = () => {
         </div>
       </div>
       <div className="bookatrip">
-        <div className="context">
+        <div className="compact">
           <p>Fast & Easy</p>
           <h4>
             Get Your Favourite <br /> Resort Bookings

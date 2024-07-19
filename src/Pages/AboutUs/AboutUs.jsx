@@ -12,13 +12,16 @@ import elip1 from "../../assets/elip1.png";
 import elip2 from "../../assets/elip2.png";
 import elip3 from "../../assets/elip3.png";
 import bowl from "../../assets/bowl.png";
-import sight1 from "../../assets/sight1.png";
-import sight2 from "../../assets/sight2.png";
-import sight3 from "../../assets/sight3.png";
-import sight4 from "../../assets/sight4.png";
-import sight5 from "../../assets/sight5.png";
-import sight6 from "../../assets/sight6.png";
-import sight7 from "../../assets/sight7.png";
+import pickup from "../../assets/pickup.png"
+import Footer from "../../Components/Footer/Footer"
+import Slider from "../../Components/Slider/Slider"
+// import sight1 from "../../assets/sight1.png";
+// import sight2 from "../../assets/sight2.png";
+// import sight3 from "../../assets/sight3.png";
+// import sight4 from "../../assets/sight4.png";
+// import sight5 from "../../assets/sight5.png";
+// import sight6 from "../../assets/sight6.png";
+// import sight7 from "../../assets/sight7.png";
 
 const AboutUs = () => {
   return (
@@ -27,7 +30,7 @@ const AboutUs = () => {
         <div className="aboutheader">
           <Navbar />
         </div>
-        <div className="about">
+        <div className="abouttext">
           <p>READ</p>
           <h5>about us</h5>
         </div>
@@ -91,24 +94,11 @@ const AboutUs = () => {
           <h6>Our International Packages</h6>
         </div>
         <div className="picsflex">
-          <div className="subflex">
-            <img src={sight1} alt="image" />
-
-            <img src={sight2} alt="image" />
-
-            <img src={sight4} alt="image" />
-
-            <img src={sight5} alt="image" />
-
-            <img src={sight6} alt="image" />
-
-            <img src={sight7} alt="image" />
-          </div>
-          <div className="flexsub">
-            <img src={sight3} alt="image" />
-          </div>
+          <img src={pickup} alt="image" />
         </div>
       </div>
+      <Slider/>
+      <Footer/>
     </div>
   );
 };

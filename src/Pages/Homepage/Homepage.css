@@ -183,7 +183,7 @@
     margin-left: 250px;
     margin-top: 125px;
 }
-.context p{
+.compact p{
     font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
@@ -191,7 +191,7 @@
     color: #DF6951;  
     margin-bottom: 15px;  
 }
-.context h4{
+.compact h4{
     font-family: Volkhov;
     font-size: 43px;
     font-weight: 700;

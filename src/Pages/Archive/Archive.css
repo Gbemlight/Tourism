@@ -1,0 +1,59 @@
+.archivehero{
+    background-image: url(../../assets/archivebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.archiveheader{
+    padding-top: 63px;
+   margin-left: 160px;
+}
+.archivetext p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFEFEC;   
+    margin-top: 100px; 
+}
+.archivetext h5{
+    font-family: Yesteryear;
+    font-size: 157.43px;
+    font-weight: 400;
+    line-height: 223.68px;
+    text-align: center;
+    color: #ffff;    
+    padding-bottom: 160px;
+}
+.archiveflex{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    background-color: #F8F8F8;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: -45px;
+    /* position: absolute;
+    /* top: 0; */
+} 
+.cush{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.cushimg{
+    height: 25px;
+    width: 25px;
+}
+.cush p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #343434;    
+}
