@@ -39,11 +39,11 @@ const Navbar = () => {
               <li className="dropdown-item">Build Packages</li>
             </div>
           </li>
-          <li>
+         <Link to= 'Archive' style={{textDecoration: 'none'}}> <li>
             <a className="navdrop" href="#">
               Upcoming Packages
             </a>
-          </li>
+          </li></Link>
         </ul>
         <button className="getbtn" onClick={handleShowModal}>Get in Touch</button>
       </nav>
