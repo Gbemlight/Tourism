@@ -6,6 +6,7 @@ import { BsCalendarDate } from "react-icons/bs";
 import { FaArrowUpFromBracket } from "react-icons/fa6";
 import { LuPencilLine } from "react-icons/lu";
 import { PiDownloadSimpleBold } from "react-icons/pi";
+import Footer from '../../Components/Footer/Footer';
 
 const Archive = () => {
   return (
@@ -46,6 +47,7 @@ const Archive = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

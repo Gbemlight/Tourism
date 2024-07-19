@@ -90,11 +90,21 @@
 }
 .partners{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 100px;
     justify-content: space-around;
     padding: 30px;
     background-color: #F7F7F7;
+    animation: move-rtl 8000ms linear infinite;
+    overflow-x: hidden;
+}
+@keyframes move-rtl{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 .Service p{
     font-family: Poppins;

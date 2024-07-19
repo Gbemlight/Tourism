@@ -85,6 +85,11 @@ const Homepage = () => {
 
     
   };
+
+  const [data, setData] = useState('');
+  const clearData = () =>{
+    setData(''); 
+  }
   return (
     <div className="container">
       {showModal && <Modal hideModal={hideModal}/>}
@@ -130,7 +135,7 @@ const Homepage = () => {
               <option>1 Year</option>
               <option>6 Months</option>
             </select>
-            <button>Submit</button>
+            <button onClick={clearData}>Submit</button>
           </div>
           <div className="clientsection">
             <img src={Group81} alt="image" />
